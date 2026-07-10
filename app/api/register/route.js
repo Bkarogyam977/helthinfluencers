@@ -33,7 +33,7 @@ export async function POST(request) {
   try {
     await transporter.sendMail({
       from: `"BK Arogyam Website" <${process.env.EMAIL_HOST_USER}>`,
-      to: 'devepritesh@gmail.com',
+      to: 'arnovchaurasia8@gmail.com',
       replyTo: email,
       subject: 'New BK Arogyam Partner Registration',
       text: `Name: ${name}\nEmail: ${email}\nPhone: ${phone}\nInstagram/YouTube: ${social || '-'}`,
